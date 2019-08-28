@@ -1,1 +1,2 @@
-### 首页.
+# Javascript.
+## JavaScript常用方法
