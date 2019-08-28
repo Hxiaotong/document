@@ -20,7 +20,8 @@ module.exports = {
       ],
       '/ES6/': [
         'Array',
-        'Object'
+        'Object',
+        'Symbol'
       ],
       '/CodeStandards/': [
         'HTML',
