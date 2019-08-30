@@ -9,7 +9,8 @@ module.exports = {
         items: [
           { text: 'Javascript', link: '/Javascript/blog' },
           { text: 'ES6', link: '/ES6/Array' },
-          { text: 'CodeStandards', link: '/CodeStandards/HTML' }
+          { text: 'CodeStandards', link: '/CodeStandards/HTML' },
+          { text: 'Tools', link: '/Tools/git' }
         ]
       },
       { text: 'document', link: 'https://github.com/Hxiaotong/document' },
@@ -28,6 +29,11 @@ module.exports = {
         'Javascript',
         'CSS',
         'VUE'
+      ],
+      '/Tools/': [
+        'git',
+        'nginx',
+        'nvm'
       ]
     },
     lastUpdated: 'Last Updated'
