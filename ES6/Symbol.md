@@ -2,6 +2,7 @@
 ::: tip
 一定要总结下这个知识点，因为我对Symbol的疑问太多了，见到的次数频率很高，每次脑子里都打满了问号，所以Symbol在我心里是重要但不紧急的知识点！
 :::
+
 ## 作用
 为了防止命名冲突，增加的第七种数据类型。Syboml的特点：`独一无二`
 
@@ -24,10 +25,12 @@ function getArea() {
 }
 
 getArea(shapeType.triangle, {width: 100, height:100});
+
 ```
 ::: tip
 只区分形状，不需要给这个形状取名字 ———— 是`取名字困难户`的一大福利
 :::
+
 ```{2}
 const shapeType = {
     triangle: Symbol()
