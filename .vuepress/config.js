@@ -22,6 +22,7 @@ module.exports = {
       '/ES6/': [
         'Array',
         'Object',
+        'String',
         'Symbol'
       ],
       '/CodeStandards/': [
