@@ -1,2 +1,2 @@
-# Javascript.
-## JavaScript常用方法
+# Javascript
+## 常用方法
