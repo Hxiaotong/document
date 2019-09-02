@@ -38,12 +38,12 @@ git remote add origin [url]
 ```
 3. 直接修改config文件
 ```js
-git remote set-url origin https://git.wecash.net/XXXX.git
+git remote set-url origin https://XXXXX/XXXX.git
 ```
 
 7. git克隆时指定项目名称
 ```js
-git clone https://git.wecash.net/auto_finance/auto-front-gongfuchefu-h5.git myDirName
+git clone https://XXXXXX/XX/XXXXX.git myDirName
 ```
 
 8. 清除本地的分支（远程仓库不存在的分支）
