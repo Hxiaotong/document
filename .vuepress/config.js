@@ -17,7 +17,8 @@ module.exports = {
     ],
     sidebar: {
       '/Javascript/': [
-        'blog'
+        'blog',
+        'sort'
       ],
       '/ES6/': [
         'Array',
