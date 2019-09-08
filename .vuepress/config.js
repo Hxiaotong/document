@@ -1,23 +1,43 @@
 module.exports = {
-  title: '前端之路',
+  title: 'Front-end Road',
   description: 'Be there totally .',
   themeConfig: {
+    sidebar: 'auto',
     nav: [
       {
-        text: 'web前端',
+        text: 'web development',
         items: [
-          { text: '面试', link: '/javascript/blog' }
+          { text: 'Javascript', link: '/Javascript/blog' },
+          { text: 'ES6', link: '/ES6/Array' },
+          { text: 'CodeStandards', link: '/CodeStandards/HTML' },
+          { text: 'Tools', link: '/Tools/git' }
         ]
       },
-      { text: '文档', link: 'https://google.com' },
+      { text: 'document', link: 'https://github.com/Hxiaotong/document' },
     ],
     sidebar: {
-      '/javascript/':{
-        title: '主页',
-        children: [
-          'blog'
-        ]
-      }
-    }
+      '/Javascript/': [
+        'blog',
+        'sort'
+      ],
+      '/ES6/': [
+        'Array',
+        'Object',
+        'String',
+        'Symbol'
+      ],
+      '/CodeStandards/': [
+        'HTML',
+        'Javascript',
+        'CSS',
+        'VUE'
+      ],
+      '/Tools/': [
+        'git',
+        'nginx',
+        'nvm'
+      ]
+    },
+    lastUpdated: 'Last Updated'
   }
 }
