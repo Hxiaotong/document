@@ -9,6 +9,7 @@ module.exports = {
         items: [
           { text: 'Javascript', link: '/Javascript/blog' },
           { text: 'ES6', link: '/ES6/Array' },
+          { text: 'Vue', link: '/Vuex/Module' },
           { text: 'CodeStandards', link: '/CodeStandards/HTML' },
           { text: 'Tools', link: '/Tools/git' }
         ]
@@ -25,6 +26,9 @@ module.exports = {
         'Object',
         'String',
         'Symbol'
+      ],
+      '/Vuex/': [
+        'Module',
       ],
       '/CodeStandards/': [
         'HTML',
