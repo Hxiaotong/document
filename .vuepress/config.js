@@ -25,7 +25,9 @@ module.exports = {
         'Array',
         'Object',
         'String',
-        'Symbol'
+        'Symbol',
+        'Set和Map数据结构',
+        'Proxy'
       ],
       '/Vuex/': [
         'Module',
@@ -39,7 +41,8 @@ module.exports = {
       '/Tools/': [
         'git',
         'nginx',
-        'nvm'
+        'nvm',
+        '移动端调试'
       ]
     },
     lastUpdated: 'Last Updated'
