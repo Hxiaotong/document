@@ -33,6 +33,14 @@ keys()，values()，entries()，forEach()
 
 
 ## Map 作用
-
+Map是键值对的集合，与JavaScript的Object不同的是，Map的键不局限于字符串，可以是任何类型的值。
 
 ## Map 应用场景
+一、处理网络错误
+```js
+let errors = new Map([
+    [400, 'InvalidParameter'],
+    [404, 'Not found'],
+    [500, 'InternalError']
+]);
+```
