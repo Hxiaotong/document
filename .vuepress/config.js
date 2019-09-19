@@ -42,6 +42,7 @@ module.exports = {
         'git',
         'nginx',
         'nvm',
+        'npm',
         '移动端调试'
       ]
     },

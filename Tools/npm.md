@@ -1,3 +1,4 @@
+# npm
 ::: tip
 我的NPM网址：https://www.npmjs.com/~xiaotong.hu  
 用户名：xiaotong.hu  
@@ -10,7 +11,7 @@ GitHub的地址：https://github.com/four-leaf-clover
 密码：0912webdevelop  
 :::
 
- ## 一、npm publish 发布示例
+ ## npm publish 发布示例
 ```
 初始化 
 
@@ -32,7 +33,7 @@ npm adduser
     npm config set registry http://registry.npmjs.org  
     ```
 
-## 二、example
+## example
 1. 编写模块
 ``` javascript
 exports.sayHello = function () { 
