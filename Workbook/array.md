@@ -16,15 +16,16 @@ var weekTextMap = {
 }
 
 function sevenDays() {
-    var nowDate = new Date()
-    var newDate = new Date(nowDate)
     var weeks = []
     var weekString = ''
     for(var step = 0 ; step<=10; step++) {
+        var nowDate = new Date()
+        var newDate = new Date(nowDate)
         newDate.setDate(nowDate.getDate()+step)
         weekString = newDate.getFullYear()+"/"+(newDate.getMonth()+1)+"/"+newDate.getDate()+" 星期"+weekTextMap[newDate.getDay()];
         weeks.push(weekString)
     }
     return weeks
 }
+var b = sevenDays()
 ```
