@@ -11,7 +11,8 @@ module.exports = {
           { text: 'ES6', link: '/ES6/Array' },
           { text: 'Vue', link: '/Vuex/Module' },
           { text: 'CodeStandards', link: '/CodeStandards/HTML' },
-          { text: 'Tools', link: '/Tools/git' }
+          { text: 'Tools', link: '/Tools/git' },
+          { text: 'Workbook', link: '/Workbook/array' }
         ]
       },
       { text: 'document', link: 'https://github.com/Hxiaotong/document' },
@@ -44,6 +45,9 @@ module.exports = {
         'nvm',
         'npm',
         '移动端调试'
+      ],
+      '/Workbook/': [
+        'array'
       ]
     },
     lastUpdated: 'Last Updated'
