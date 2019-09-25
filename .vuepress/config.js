@@ -47,7 +47,8 @@ module.exports = {
         '移动端调试'
       ],
       '/Workbook/': [
-        'array'
+        'array',
+        'string'
       ]
     },
     lastUpdated: 'Last Updated'
