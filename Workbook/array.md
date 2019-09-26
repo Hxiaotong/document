@@ -29,3 +29,25 @@ function sevenDays() {
 }
 var b = sevenDays()
 ```
+
+## 2019年09月26日 洗牌算法
+```js
+function randomSort(arr) {
+	var newArray = []
+	newArray = arr.sort(function() {
+		return Math.random() - 0.5
+	})
+	return newArray
+}
+```
+```js 
+function sort(arr) {
+    var newArr = [];
+    for(var i = 0, len = arr.length; i < len; i++) {
+        var j = Math.floor(Math.random() * (len - i));
+        newArr[i] = arr[j];
+        arr.splice(j, 1)
+    }
+    return newArr;
+}
+```
