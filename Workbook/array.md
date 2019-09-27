@@ -51,3 +51,15 @@ function sort(arr) {
     return newArr;
 }
 ```
+```js
+/*huzhifu*/
+function shuffle(arr) {
+    for(var i = 0;i<arr.length;i++){
+      let ranIndex = Math.floor(Math.random()*arr.length)
+      let t = arr[i]
+      arr[i] = arr[ranIndex]
+        arr[ranIndex] = t 
+    }
+    return arr
+}
+```
