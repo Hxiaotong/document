@@ -63,3 +63,38 @@ function shuffle(arr) {
     return arr
 }
 ```
+## 2019年09月29日 
+```js
+var strMap = {
+	2: "abc",
+	3: "def",
+	4: "ghi",
+	5: "jkl",
+	6: "mno",
+	7: "pqrs",
+	8: "tuv",
+	9: "wxyz",
+}
+function arrange(a,b){
+	if(!a && !b) {
+		return []
+	}
+	if ((b && a) && (!strMap[a] || !strMap[b])) {
+		return "输入不合法"
+	} 
+	if (strMap[a] && !b) {
+		return strMap[a].split("")
+	}  
+	if (strMap[a] && strMap[b]) {
+		let array = []
+		for(var i = 0; i<strMap[a].length;i++) {
+			var j = 0
+			while(j < strMap[b].length){
+				array.push(strMap[a][i]+strMap[b][j])
+				j++
+			}
+		}
+		return array
+	}
+}
+```
