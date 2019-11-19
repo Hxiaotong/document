@@ -108,6 +108,7 @@ var hello = require('wu_xx');
 
 hello.sayHello();
 ```
+[语义化版本](https://semver.org/lang/zh-CN/)
 
  ## npm 版本号格式
 ```
