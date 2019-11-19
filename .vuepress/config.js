@@ -52,5 +52,10 @@ module.exports = {
       ]
     },
     lastUpdated: 'Last Updated'
+  },
+  Markdown: {
+    externalLinks: {
+      target: '_self', rel: 'noopener noreferrer'
+    }
   }
 }

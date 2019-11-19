@@ -1,4 +1,4 @@
-# NVM
+# NVM【node的版本管理工具】
 ## 常用命令
 1. 安装最新稳定版
 `node nvm install stable ` 
