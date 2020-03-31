@@ -1,7 +1,7 @@
 # sentry
 [文档](https://hxiaotong.github.io/document/)
 
-### VUE项目接入sentry
+## VUE项目接入sentry
 #### 一、公司sentry网址：http://werr.XXX.net/FE/
 
 #### 二、sentry网址主要操作
