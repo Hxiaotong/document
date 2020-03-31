@@ -32,7 +32,8 @@ module.exports = {
           { text: 'Nginx', link: '/Tools/nginx' },
           { text: 'npm', link: '/Tools/npm' },
           { text: 'n', link: '/Tools/n' },
-          { text: 'nvm', link: '/Tools/nvm' }
+          { text: 'nvm', link: '/Tools/nvm' },
+          { text: 'sentry', link: '/Tools/sentry' }
         ]
       },
       {
@@ -77,6 +78,7 @@ module.exports = {
         'nvm',
         'n',
         'npm',
+        'sentry',
         '移动端调试'
       ],
       '/Workbook/': [
