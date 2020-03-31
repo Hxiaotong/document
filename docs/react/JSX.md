@@ -1,4 +1,4 @@
-## JSX
+# JSX
 
 ### 知识点
 1、HTML 里的 class 在 JSX 里要写成 className，因为 class 在 JS 里是保留关键字；同理某些属性比如 for 要写成 htmlFor；style 属性接受由 CSS 属性构成的 JS 对象。

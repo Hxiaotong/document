@@ -5,19 +5,51 @@ module.exports = {
     sidebar: 'auto',
     nav: [
       {
-        text: 'web development',
+        text: 'React team',
+        items: [
+          { text: 'React', link: '/React/react.md' },
+          { text: 'JSX', link: '/React/JSX.md' },
+          { text: 'Hook', link: '/React/Hook.md' },
+        ]
+      },
+      {
+        text: 'Vue team',
+        items: [
+          { text: 'Vue', link: '/Vuex/Module' },
+        ]
+      },
+      {
+        text: 'Js team',
         items: [
           { text: 'Javascript', link: '/Javascript/blog' },
           { text: 'ES6', link: '/ES6/Array' },
-          { text: 'Vue', link: '/Vuex/Module' },
+        ]
+      },
+      {
+        text: 'Tools',
+        items: [
+          { text: 'Git', link: '/Tools/git' },
+          { text: 'Nginx', link: '/Tools/nginx' },
+          { text: 'npm', link: '/Tools/npm' },
+          { text: 'n', link: '/Tools/n' },
+          { text: 'nvm', link: '/Tools/nvm' }
+        ]
+      },
+      {
+        text: 'others',
+        items: [
           { text: 'CodeStandards', link: '/CodeStandards/HTML' },
-          { text: 'Tools', link: '/Tools/git' },
           { text: 'Workbook', link: '/Workbook/array' }
         ]
       },
       { text: 'document', link: 'https://github.com/Hxiaotong/document' },
     ],
     sidebar: {
+      '/React/': [
+        'react',
+        'JSX',
+        'Hook'
+      ],
       '/Javascript/': [
         'blog',
         'sort'
@@ -43,6 +75,7 @@ module.exports = {
         'git',
         'nginx',
         'nvm',
+        'n',
         'npm',
         '移动端调试'
       ],
