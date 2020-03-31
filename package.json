@@ -1,0 +1,29 @@
+{
+  "name": "document",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hxiaotong/document.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hxiaotong/document/issues"
+  },
+  "homepage": "https://github.com/Hxiaotong/document#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
