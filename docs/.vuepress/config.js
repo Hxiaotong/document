@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Front-end Road',
   description: 'Be there totally .',
-  base: 'document/',
+  base: '/document/',
   themeConfig: {
     sidebar: 'auto',
     nav: [
