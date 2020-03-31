@@ -5,8 +5,8 @@
 
 #### 二、sentry网址主要操作
 ##### 新建项目
-![An image](./sentry-img/sentry_1.jpeg)
-![An image](./sentry-img/sentry_2.jpeg)
+![An image](./sentry-img/sentry_9.jpeg)
+![An image](./sentry-img/sentry_10.jpeg)
 
 #### 三、项目引入sentry
 ##### 安装依赖
