@@ -89,8 +89,45 @@ componentDidUpdate：
 ## question
 1、函数组件和class组件的区别？
 2、什么是有状态组件、什么是无状态组件？
-    1>、什么时候使用this.props.title，什么时候使用props.title？
-    2>、constructor构造函数的作用？什么时候执行？
+    1>、
+
+    ```js
+        import React, {Component} from 'react'
+        import PropTypes from 'prop-types'
+
+        // 有状态组件 Class：有state、有生命周期、有render、有props，用来定义交互和业务逻辑的组件
+        class User extends Component {
+            static defaultProps = {
+                title: 'test'
+            };
+            // 定义属性类型
+            static propTypes = {
+                title: PropTypes.string.isRequired // 用来定义必传项
+            };
+            static defaultProps = {
+                title: 'test'
+            };
+            render () {
+                return <div>{this.props.title}</div>
+            }
+        }
+        export default User
+    ```
+
+    ```js
+        // 无状态组件 () => {}：没有render，只有props，用来展示的组件。
+        // const User = ({ title }) => {
+        const User = (props) => {
+            const title = 'test'
+            return <div>{props.title}</div>
+        }
+        User.defaultProps = {
+            title: 'test' // 用来定义必传项
+        }
+        export default User
+    ```
+    2>、什么时候使用this.props.title，什么时候使用props.title？
+    3>、constructor构造函数的作用？什么时候执行？
 
     ```js
         // 有状态组件 Class
@@ -141,6 +178,19 @@ componentDidUpdate：
         }
     ```
 6、组件里如何添加样式？有几种添加样式的方式？
-    1>、行内样式
+    1>、行内样式: style
+
+    ```js
+        // 定义行内样式样式
+        const userStyle = {
+            fontSize: '14px', // 横杠变驼峰
+            color: 'red'
+        }
+
+        <div style={userStyle}></div>
+    ```
     2>、使用className
     3>、什么时候使用模块的方式引入样式文件，style.login-btn
+7、循环渲染
+    1>、map
+    2>、key
