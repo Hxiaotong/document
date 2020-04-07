@@ -89,4 +89,58 @@ componentDidUpdate：
 ## question
 1、函数组件和class组件的区别？
 2、什么是有状态组件、什么是无状态组件？
+    1>、什么时候使用this.props.title，什么时候使用props.title？
+    2>、constructor构造函数的作用？什么时候执行？
+
+    ```js
+        // 有状态组件 Class
+        constructor() {
+            super()
+            this.state = {
+                userName: 'huxiaotong'
+            }
+        }
+    ```
+    ```js
+        <div>{this.state.userName}</div>
+    ```
 3、props是否能定义初始值？
+
+
+## JSX语法
+1、多次引用一个input组件，如何实现多个输入框各自数值的动态修改？
+2、React.Fragment 是什么？什么时候用？
+3、变量和表达式，使用花括号‘{}’包裹。
+4、条件渲染：三目运算符、if表达式。
+5、组件之间是如何传值的？
+    1>、通过属性传值、组件如何接受传过来的值props。
+
+    ```js
+        // 有状态组件 Class
+        <Navbar title="测试标题"></Navbar>
+    ```
+    ```js
+        <div>{this.props.title}</div>
+    ```
+    2>、如何定义组件的默认值？defaultProps是什么？
+
+    ```js
+        // 设置默认属性值
+        static defaultProps = {
+            title: 'test' // 用来定义必传项
+        }
+    ```
+    3>、如何定义属性类型？
+
+    ```js
+        import PropTypes from 'prop-types'
+
+        // 定义属性类型
+        static propTypes = {
+            title: PropTypes.string.isRequired // 用来定义必传项
+        }
+    ```
+6、组件里如何添加样式？有几种添加样式的方式？
+    1>、行内样式
+    2>、使用className
+    3>、什么时候使用模块的方式引入样式文件，style.login-btn
